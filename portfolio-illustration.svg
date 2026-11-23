@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-labelledby="title desc">
+  <title id="title">A portfolio taking shape</title>
+  <desc id="desc">An abstract browser window with geometric shapes, a plant-like form and layout blocks.</desc>
+  <rect width="720" height="760" fill="#dfe7db"/>
+  <circle cx="590" cy="130" r="110" fill="#cadbca"/>
+  <circle cx="130" cy="660" r="135" fill="#ccd9c9"/>
+  <rect x="91" y="109" width="538" height="541" rx="12" fill="#2d473e" opacity=".12" transform="translate(18 20)"/>
+  <rect x="91" y="109" width="538" height="541" rx="12" fill="#faf9f3"/>
+  <path d="M103 109h514a12 12 0 0 1 12 12v49H91v-49a12 12 0 0 1 12-12Z" fill="#f0efe6"/>
+  <circle cx="122" cy="140" r="5" fill="#a1b1a1"/>
+  <circle cx="141" cy="140" r="5" fill="#a1b1a1"/>
+  <circle cx="160" cy="140" r="5" fill="#a1b1a1"/>
+  <rect x="512" y="135" width="82" height="8" rx="4" fill="#d2d9ce"/>
+  <rect x="130" y="209" width="205" height="17" rx="8.5" fill="#394e43"/>
+  <rect x="130" y="242" width="155" height="10" rx="5" fill="#a4b3a4"/>
+  <rect x="130" y="266" width="186" height="10" rx="5" fill="#d0d9ce"/>
+  <rect x="130" y="290" width="170" height="10" rx="5" fill="#d0d9ce"/>
+  <rect x="130" y="339" width="115" height="37" rx="18.5" fill="#63826c"/>
+  <rect x="364" y="205" width="223" height="224" rx="4" fill="#dbe7d8"/>
+  <circle cx="475" cy="317" r="76" fill="#f5f4e9"/>
+  <path d="M475 369V259M475 331c-36-4-46-30-43-48 30 1 43 23 43 48Zm0 17c34-5 45-26 43-45-30 1-43 20-43 45Z" fill="none" stroke="#708f79" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="130" y="461" width="139" height="128" rx="4" fill="#e2e8dc"/>
+  <rect x="290" y="461" width="139" height="128" rx="4" fill="#e9e5d7"/>
+  <rect x="450" y="461" width="137" height="128" rx="4" fill="#d4e0d2"/>
+  <circle cx="199" cy="524" r="31" fill="#acc1ae"/>
+  <path d="M331 549l28-48 30 48Z" fill="#c7bda2"/>
+  <rect x="487" y="493" width="62" height="62" rx="31" fill="#8ea995"/>
+</svg>

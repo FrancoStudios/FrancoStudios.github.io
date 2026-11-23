@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Isaac Franco's web development portfolio is coming soon.">
+  <title>Isaac Franco | Coming Soon</title>
+  <style>
+    :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; color: #232d2c; background: #f4f2eb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; }
+    .page { max-width: 1440px; min-height: 100vh; margin: auto; padding: 0 7%; display: flex; flex-direction: column; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 32px 0; border-bottom: 1px solid #cfcfc2; }
+    .brand { font-weight: 700; font-size: 1rem; letter-spacing: .04em; }
+    .header-label { color: #65736c; font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+    main { flex: 1; display: grid; grid-template-columns: 1fr 1.05fr; gap: 7%; align-items: center; padding: 64px 0; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: #496a59; font-weight: 700; font-size: .72rem; letter-spacing: .16em; text-transform: uppercase; }
+    .eyebrow::before { content: ''; width: 8px; height: 8px; background: #82a68d; border-radius: 50%; }
+    h1 { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; font-size: clamp(3.5rem, 7.5vw, 7rem); letter-spacing: -.055em; line-height: .97; margin: 24px 0; }
+    h1 span { color: #688673; font-style: italic; }
+    .intro { max-width: 410px; color: #56635d; font-size: 1.08rem; line-height: 1.7; margin: 0; }
+    .signature { margin-top: 42px; display: flex; gap: 16px; align-items: center; color: #6f7a70; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; }
+    .signature::before { content: ''; width: 46px; height: 1px; background: #91a494; }
+    .art { margin: 0; }
+    .art img { width: 100%; height: auto; display: block; border-radius: 2px; }
+    .art figcaption { display: flex; justify-content: space-between; gap: 20px; color: #758177; font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; margin-top: 16px; }
+    footer { border-top: 1px solid #cfcfc2; color: #758177; font-size: .72rem; padding: 22px 0 26px; letter-spacing: .05em; }
+    @media (max-width: 760px) {
+      .page { padding: 0 7%; }
+      header { padding: 25px 0; }
+      main { grid-template-columns: 1fr; gap: 44px; padding: 64px 0 48px; }
+      h1 { font-size: clamp(3.6rem, 13vw, 5rem); }
+      .signature { margin-top: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="brand">Isaac Franco</div>
+      <div class="header-label">Portfolio</div>
+    </header>
+    <main>
+      <section aria-labelledby="headline">
+        <div class="eyebrow">A work in progress</div>
+        <h1 id="headline">Something<br><span>good</span> is<br>coming.</h1>
+        <p class="intro">A new web development portfolio is taking shape. A collection of projects and ideas will be here soon.</p>
+        <div class="signature">Isaac Franco &nbsp; / &nbsp; Coming soon</div>
+      </section>
+      <figure class="art">
+        <img src="portfolio-illustration.svg" alt="An abstract illustration of a website layout in soft green and cream tones">
+        <figcaption><span>Making space for ideas</span><span>01 / 01</span></figcaption>
+      </figure>
+    </main>
+    <footer>ISAAC FRANCO &nbsp; / &nbsp; PORTFOLIO IN PROGRESS</footer>
+  </div>
+</body>
+</html>
